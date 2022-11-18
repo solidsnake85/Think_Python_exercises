@@ -1,3 +1,4 @@
+# Write four squares made up of + and - like in the 3.5 drawing
 def do_twice(f):
     f()
     f()
@@ -23,4 +24,4 @@ def fourSquare():
     do_four(barLine)
     line()
 
-(fourSquare())
+(fourSquare())#
