@@ -34,6 +34,3 @@ def do_four(y, val):
     do_twicemod(y, val)
 
 do_four(print, ('mantis'))
-
-
-
