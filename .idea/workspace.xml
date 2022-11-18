@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5db473e-da03-4756-be8e-bff259755a7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/All/Ex3_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All/StoN_decibels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/All/Chp3_parameters_arguments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/All/Ex3_4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All/Ex 3_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/All/Ex3_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All/Ex2_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/All/Ex2_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All/Ex3_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/All/Ex3_3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,7 +1,4 @@
-spam = 7
-import math
-def print_twice(spam):
-    print (math.pi)
-    print (math.pi)
-# as long as spam is defined, program will run
-print (print_twice(spam))
+def right_justify(s):
+    print (' ' * (70-len(s))+s)
+
+right_justify('allen')
