@@ -24,4 +24,4 @@ def fourSquare():
     do_four(barLine)
     line()
 
-(fourSquare())#
+(fourSquare())
