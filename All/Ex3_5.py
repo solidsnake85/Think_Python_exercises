@@ -1,4 +1,4 @@
-# Write four squares made up of + and - like in the 3.5 drawing
+# 1. Write four squares made up of + and - like in the 3.5 drawing
 def do_twice(f):
     f()
     f()
@@ -8,12 +8,10 @@ def do_four(f):
     f()
     f()
     f()
-def column():
-    print ('+', ('- ' * 4), end = '')
 
 def line():
-    do_twice(column), print ('+')
-
+    horizontal = ('- - - - +')
+    print ('+', horizontal, horizontal)
 def barLine():
     print ('|', (' '*7), '|', (' '*7), '|')
 

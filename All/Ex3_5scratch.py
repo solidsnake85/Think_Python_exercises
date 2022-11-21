@@ -1,20 +1,30 @@
-def line(x, val):
-    print ('+', '-', '-', '-', '-','+', '-', '-', '-', '-', '+')
+def do_twice(f):
+    f()
+    f()
 
-def barLine(y, val):
-    print ('|', (' '*7), '|', (' '*7), '|')
+def do_four(f):
+    f()
+    f()
+    f()
+    f()
+def twoColumns():
+    horizontal = ('- - - - +')
+    print ('+', horizontal, horizontal),
 
-#def do_twicemod():
-#    line(print), line(print)
+def barLine():
+    print ('|         |         |')
 
-(line(print, '+'))
-(barLine(print, '|'))
-(barLine(print, '|'))
-(barLine(print, '|'))
-(barLine(print, '|'))
-(line(print, '+'))
-(barLine(print, '|'))
-(barLine(print, '|'))
-(barLine(print, '|'))
-(barLine(print, '|'))
-(line(print, '+'))
+def fourSquare():
+    twoColumns()
+    do_four(barLine)
+    twoColumns()
+    do_four(barLine)
+    twoColumns()
+
+#(fourSquare())
+
+# 2. Make four rows and four columns
+
+def eightSquare():
+    fourSquare(), fourSquare()
+
